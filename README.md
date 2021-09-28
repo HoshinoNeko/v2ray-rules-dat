@@ -11,9 +11,12 @@
 - 新增类别（方便有特殊需求的用户使用）：
   - `geoip:cloudflare`
   - `geoip:cloudfront`
+  - `geoip:facebook`
   - `geoip:fastly`
+  - `geoip:google`
   - `geoip:netflix`
   - `geoip:telegram`
+  - `geoip:twitter`
 
 > 希望定制 `geoip.dat` 文件？查看仓库 [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)。
 
@@ -218,7 +221,7 @@ steamstatic.com.8686c.com @cn
     {
       "type": "field",
       "outboundTag": "Proxy",
-      "domain": ["geosite:tld-!cn", "geosite:gfw", "geosite:greatfire"]
+      "domain": ["geosite:gfw", "geosite:greatfire"]
     },
     {
       "type": "field",
